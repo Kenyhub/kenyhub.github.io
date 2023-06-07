@@ -1,0 +1,90 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Reto Encriptador</title>
+	<link rel="stylesheet" href="css.css">
+	<script src="java.js"></script>
+
+	
+</head>
+<body>
+	<header>
+		<section>
+			<div class="contenedor">
+			<img class="tercera1" src="tercera.png">
+			<img class="primer" src="encriptado.png" align="center">
+			<img class="tercera2" src="tercera.png">
+			
+			</div>
+	    </section>
+	</header>
+
+
+
+<body class="fondo">
+<nav class="reglas">	
+	<section class="desafio">
+		<h1 class="sobre" >   Sobre el desafío</h1><br>
+		<p class="color">Requisitos:<br>
+			♡ No utilizar letras minúsculas<br>
+			♡ No utilizar letras con acentos <br>
+			♡ No utilizar caracteres especiales <br>
+			♡ Debe ser posible encriptar las palabras <br> 
+			♡ Debe ser posible devolver las palabras<br> encriptadas a su versión original.</p><br>
+	</section>
+</nav>
+
+<div class="textomensaje">
+		<h1 class="mensaje">¡Mensaje secreto!</h1>
+<h2 class="mensajedos">Desencripta nuestro mensaje secreto</h2>
+
+	<p class="parrafo">	fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!
+	</p>
+	
+	<p class="verificar">Verifica tu respuesta </p> 
+<br>
+	</div>
+
+
+	<div class="conten">
+	<input type="text" id="textoEncriptado">
+	<textarea name="resultado" id="textoDesencriptado" ></textarea>
+	</div>
+
+	<button type="button" id="botonEncriptado">Encriptar</button>
+	<button type="button" id="botonDesencriptado">Desencriptar</button>
+	<button type="button" id="botonCopiar">Copiar</button>
+	<footer> 
+		<h3 class="datos">&#x21a0;Datos de la persona que desarrolló el sitio web&#x219e;</h3>
+		<p class="nombre">&#9812;Kenia Lorena Medrano Vergara<br></p>
+		<p class="lista">&#9822;25 años<br>
+			&#9822;Futura Desarrolladora Back-End<br></p>
+	</footer>
+
+	<script>
+		var btn = document.querySelector("#botonEncriptado");
+		btn.onclick = Encriptar;
+		var btn2 = document.querySelector("#botonDesencriptado");
+		btn2.onclick = Desencriptar;
+		var btn3 = document.querySelector("#botonCopiar");
+		btn3.onclick = copiar;
+	</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
